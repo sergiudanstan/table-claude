@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="Table Generator" />
+    <meta property="og:type" content="website" />
+    <meta
+      name="description"
+      content="Parametric 3D-printable table generator"
+    />
+    <meta
+      property="og:description"
+      content="Parametric 3D-printable table generator"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Table Generator</title>
+    <script type="module" crossorigin src="/table-claude/assets/index-BLVf7oxf.js"></script>
+    <link rel="stylesheet" crossorigin href="/table-claude/assets/index-Nikm3lFy.css">
+  </head>
+  <body>
+    <header>
+      <h1>Table Generator</h1>
+    </header>
+    <main>
+      <section id="generator">
+        <h2 class="hidden">Part Generator</h2>
+        <div id="part">
+          <div id="canvas-container">
+            <canvas aria-label="3D preview of the generated part">
+              3D Preview of the generated part. You might need to enable
+              JavaScript.</canvas
+            >
+          </div>
+        </div>
+        <div id="panel">
+          <div id="controls" role="group" aria-label="Table dimensions"></div>
+          <div id="download-buttons">
+            <a id="download">Download 3MF</a>
+            <a id="download-stl">Download STL</a>
+            <a id="download-obj">Download OBJ</a>
+          </div>
+        </div>
+      </section>
+      <section id="quote-section">
+        <div id="quote"></div>
+      </section>
+    </main>
+  </body>
+</html>
