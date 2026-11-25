@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: "41 5 * * 1"
   push:
-    branches: [main]
+    branches: [gh-pages]
   workflow_dispatch:
 
 permissions:
