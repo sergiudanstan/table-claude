@@ -1,0 +1,14 @@
+{
+  "name": "table-claude",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Parametric 3D table generator with live pricing (built site, served from GitHub Pages)",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/smoke.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.65.0"
+  }
+}
