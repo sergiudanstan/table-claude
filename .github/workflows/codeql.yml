@@ -1,10 +1,10 @@
 name: CodeQL
 
-# Every push to main, every pull request, and weekly. Keeping it on every change
+# Every push to gh-pages (the default branch), every pull request, and weekly. Keeping it on every change
 # keeps Scorecard's SAST check covering all commits.
 on:
   push:
-    branches: [main]
+    branches: [gh-pages]
   pull_request:
   schedule:
     - cron: "27 4 * * 1"
