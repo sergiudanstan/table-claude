@@ -1,6 +1,6 @@
 {
   "name": "table-claude",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Parametric 3D table generator with live pricing (built site, served from GitHub Pages)",
   "license": "MIT",
