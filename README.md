@@ -1,3 +1,7 @@
+> **Superseded by furniture-quotation** → <https://github.com/sergiudanstan/furniture-quotation> · <https://sergiudanstan.github.io/furniture-quotation/>
+> It offers the same table (seven parameters, wood, finish, live price, PDF quote, 3MF/STL/OBJ export) and adds a chair.
+> This repository is archived; the text below is kept as history.
+
 # table-claude
 
 [![CI](https://github.com/sergiudanstan/table-claude/actions/workflows/ci.yml/badge.svg)](https://github.com/sergiudanstan/table-claude/actions/workflows/ci.yml)
